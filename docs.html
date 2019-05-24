@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<title>DOCS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3-theme-blue-grey.css">
+<link rel="stylesheet" href="font-awesome.min.css">
+
+<style>
+    .editor {
+        position: absolute;
+        right: 30px;
+    }
+.btn {
+  background-color: #6699FF;/*#1ABC9C;*/
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  right: 30px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.btn1 {
+  background-color: #6699FF;/*#1ABC9C;*/
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  right: 30px;
+}
+
+.btn1:hover {
+  background-color: #40E0D0;/*RoyalBlue;*/
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    position: relative;
+    left: 790px;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+</style>
+
+<body class="w3-theme-l4">
+
+<div style="min-width:400px">
+
+  <div class="w3-bar w3-large w3-theme-d4 w3-card">
+    <span title="click to use the online markdown editor" onclick="window.open('http://47.101.177.200:4000/')" class="w3-bar-item w3-card btn1">
+	Online Markdown Editor
+	</span>
+      <h3>&nbsp;&nbsp;&nbsp;All files related to the project can be viewed or downloaded here.</h3>
+
+  </div>
+
+
+  <div class="w3-container w3-content">
+  
+	<div title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/')" class="w3-panel w3-white w3-card w3-display-container">
+        <p class="w3-text-indigo">
+            <b>download</b>
+            <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/')" class="btn">Download</button>
+        </p>
+        <p class="w3-text-indigo">可下载本项目相关的所有资源</p>
+    </div>
+
+
+    <div title="click to view" onclick="window.open('./kong.md.html')" class="w3-panel w3-white w3-card w3-display-container">
+        <p class="w3-text-indigo">
+            <b>kong</b>
+            <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/documentation/kong/kong.md')" class="btn">
+                Download
+            </button>
+        </p>
+        <p class="w3-text-indigo">kong 的部署及 API 的挂载和访问流程</p>
+    </div>
+
+
+    <div title="click to view" onclick="window.open('./dillinger.md.html')" class="w3-panel w3-white w3-card w3-display-container">
+	  <p class="w3-text-indigo">
+          <b>dillinger</b>
+          <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/documentation/dillinger/dillinger.md')" class="btn">
+              Download
+          </button>
+      </p>
+      <p class="w3-text-indigo">dillinger 服务器的部署流程</p>
+    </div>
+
+
+    <div title="click to view" onclick="window.open('./docker.md.html')" class="w3-panel w3-white w3-card w3-display-container">
+      <p class="w3-text-indigo">
+          <b>docker</b>
+          <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/documentation/docker/docker%E5%AE%89%E8%A3%85.md')" class="btn">
+              Download
+          </button>
+      </p>
+      <p class="w3-text-indigo">docker 的安装流程</p>
+    </div>
+
+
+	<div title="click to view" onclick="window.open('./object_detection.md.html')" class="w3-panel w3-white w3-card w3-display-container">
+      <p class="w3-text-indigo">
+          <b>object_detection api 文档</b>
+          <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/documentation/object_detection/object_detection.md')" class="btn">
+              Download
+          </button>
+      </p>
+      <p class="w3-text-indigo">object_detection api 的主要代码</p>
+    </div>
+
+      <div title="click to view" onclick="window.open('./ocr.html')" class="w3-panel w3-white w3-card w3-display-container">
+          <p class="w3-text-indigo">
+              <b>ocr api 文档</b>
+              <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/documentation/ocr/ocr.md')" class="btn">
+                  Download
+              </button>
+          </p>
+          <p class="w3-text-indigo">文字识别 api 的使用说明和主要代码</p>
+      </div>
+
+
+	<div title="click to view" onclick="window.open('./web_server.md.html')" class="w3-panel w3-white w3-card w3-display-container">
+      <p class="w3-text-indigo">
+          <b>web_server 文档</b>
+          <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/clientTest/')" class="btn">
+              Download
+          </button>
+      </p>
+      <p class="w3-text-indigo">web_server 的主要代码</p>
+    </div>
+
+
+      <div title="click to view" onclick="window.open('./ip_port.md.html')" class="w3-panel w3-white w3-card w3-display-container">
+          <p class="w3-text-indigo">
+              <b>ip address and port</b>
+              <button title="click to download" onclick="window.open('ftp://172.16.60.62/anonymous/documentation/ip_port/ip_port.md')" class="btn">
+                  Download
+              </button>
+          </p>
+          <p class="w3-text-indigo">ip 地址和端口的记录与说明</p>
+      </div>
+
+  </div>
+
+<!--</div>
+<div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a class="active" href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">&raquo;</a>
+</div>-->
+
+</body>
+</html>
